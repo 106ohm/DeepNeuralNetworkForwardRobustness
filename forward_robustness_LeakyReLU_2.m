@@ -28,17 +28,17 @@ image = image/255;
 image = image';
 
 %% load weights and biases
-we34 = matfile(strcat(af,'_wfour.mat'));
+we34 = matfile(strcat(af,'_wfour_2.mat'));
 w4 = we34.w34;
-we23 = matfile(strcat(af,'_wthree.mat'));
+we23 = matfile(strcat(af,'_wthree_2.mat'));
 w3 = we23.w23;
-we12 = matfile(strcat(af,'_wtwo.mat'));
+we12 = matfile(strcat(af,'_wtwo_2.mat'));
 w2 = we12.w12;
-bi34 = matfile(strcat(af,'_bfour.mat'));
+bi34 = matfile(strcat(af,'_bfour_2.mat'));
 b4 = bi34.b34;
-bi23 = matfile(strcat(af,'_bthree.mat'));
+bi23 = matfile(strcat(af,'_bthree_2.mat'));
 b3 = bi23.b23;
-bi12 = matfile(strcat(af,'_btwo.mat'));
+bi12 = matfile(strcat(af,'_btwo_2.mat'));
 b2 = bi12.b12;
 
 %% define struct with symbols and bounds
